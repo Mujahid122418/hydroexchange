@@ -1,0 +1,96 @@
+@import '../../styles/variables.scss';
+
+.collapsing {
+    -webkit-transition: none;
+    transition: none;
+    display: none;
+}
+
+.HydroSDK-toggleButton {
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
+        outline: none;
+        background-color: #535ec3 !important;
+        border-color: #4954ac !important;
+        color: $white !important;
+        box-shadow: none;
+    }
+}
+.header-container{
+    background-color: rgb(46, 54, 75) !important;
+}
+.header-connect-btn{
+    transition: background-image 1s ;
+    background: linear-gradient(75deg, #65aa88, #65aa88 50%, #7CC0D3 100%);
+    color: white;
+    font-weight: bold;
+}
+.header-connect-btn:hover{
+    background: linear-gradient(75deg, #65aa88, #65aa88 50%, #65aa88 100%);
+    color: white;
+}
+.header-dropdown-btn{
+    color: #63BC90 !important;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.header-dropdown-btn:focus{
+outline: none !important;
+border: none !important;
+border-color: rgb(46, 54, 75) !important;
+outline-color: rgb(46, 54, 75)!important;
+
+}
+.dropdown-item{
+    background-color: rgb(46, 54, 75);
+    color:white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #63BC90;
+}
+.dropdown-item:hover{
+    background-color: #63BC90;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.dropdown-menu{
+    background-color: rgb(46, 54, 75);
+    padding: 0px;
+}
+@media screen and (max-width: 768px) {
+    .collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #535ec3;
+        z-index: 1;
+        .item {
+            margin: 4px 0;
+            border: none;
+        }
+        .HydroSDK-toggleButton {
+            border: none;
+        }
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .dropdown-toggle::after {
+        margin-left: 12px;
+    }
+    .item {
+        margin-right: 12px;
+    }
+    .collapse-toggle {
+        display: none;
+    }
+    .collapse,
+    .collapse:not(.show) {
+        display: flex;
+    }
+}

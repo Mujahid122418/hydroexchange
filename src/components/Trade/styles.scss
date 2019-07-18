@@ -1,0 +1,62 @@
+@import '../../styles/variables.scss';
+
+.trade {
+	.form-title {
+		color: $black;
+		font-size: 16px;
+	}
+	.list {
+		margin-top: 8px;
+		.item {
+			padding: 2px 0;
+		}
+	}
+	.input-group {
+		display: flex;
+		align-items: center;
+		position: relative;
+		.unit {
+			position: absolute;
+			right: 12px;
+		}
+	}
+}
+#buyBtn {
+	background-color: #2b3247;
+    // color: #63bc90 !important;
+    color: white !important;
+	font-weight: bold;
+	border: 1px solid black;
+}
+#sellBtn {
+	background-color: #2b3247;
+    // color: #d0385b !important;
+    color: white !important;
+	font-weight: bold;
+	border: 1px solid black;
+}
+// #buyBtn:hover{
+//     transition: background-image 1s ;
+//     background: linear-gradient(75deg, #65aa88, #65aa88 40%, #7CC0D3 100%) !important;
+//     color: white !important;
+//     font-weight: bold;
+// }
+// #sellBtn:hover{
+//     background: linear-gradient(75deg, #b64667, #b75370 40%, #b96880) !important;
+//     color: white !important;
+//     font-weight :bold;
+// }
+#priceField,
+#accountField {
+	background-color: #2b3247;
+	border-radius: 5px;
+	color: white !important;
+}
+.buyBtn.active {
+	background: linear-gradient(75deg, #65aa88, #65aa88 40%, #7cc0d3 100%) !important;
+	color: white !important;
+}
+.sellBtn.active {
+	background: linear-gradient(75deg, #b64667, #b75370 40%, #b96880) !important;
+	color: white !important;
+}

@@ -1,0 +1,15 @@
+.select.dark .selected.small{
+    background-color: #2b3247 !important;
+}
+.select.dark .item.small{
+    background-color: #2b3247 !important;
+}
+.select.dark .dropdown.down {
+    background-color: #2b3247 !important;
+}
+#tradeChartDropDown{
+    background-color: #2E364B;
+}
+.border{
+    border: 8px solid #181D2E !important;
+}

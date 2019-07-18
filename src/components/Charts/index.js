@@ -237,7 +237,7 @@ class Charts extends React.Component {
             <DeepChart
               baseToken="HOT"
               quoteToken="DAI"
-              styles={{ bidColor: '#00d99f', askColor: '#d03865', rowBackgroundColor: '#2b3247' }} // rew backcloor #FFFFFF
+              styles={{ bidColor: '#d03865', askColor: '#d03865', rowBackgroundColor: '#2b3247' }} // rew backcloor #FFFFFF
               asks={asks}
               bids={bids}
               priceDecimals={5}

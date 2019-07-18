@@ -10,6 +10,6 @@
 #tradeChartDropDown{
     background-color: #2E364B;
 }
-.border{
-    border: 8px solid #181D2E !important;
-}
+ .border{
+      border: 1px solid #181D2E !important;  
+} 

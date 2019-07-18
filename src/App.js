@@ -201,12 +201,12 @@ class App extends React.PureComponent {
   renderTablet() {
     return (
       <div className="flex flex-1 overflow-hidden">
-        <div className="flex-column borderRight">
+        <div className="flex-column border-right">
           <div className="grid flex-1">
             <Trade />
           </div>
         </div>
-        <div className="flex-column">
+        <div className="flex-column  border-right" >
           <div className="flex-column flex-1">
             <div className="grid flex-1">
               <Charts />
@@ -239,7 +239,7 @@ class App extends React.PureComponent {
             <Trade />
           </div>
         </div>
-        <Fold className="grid borderRight flex-column">
+        <Fold className="grid border-right flex-column">
           <div className="grid flex-column" data-fold-item-title="Orderbook">
             <OrderBook />
           </div>
@@ -250,7 +250,7 @@ class App extends React.PureComponent {
             <Wallet />
           </div>
         </Fold>
-        <div className="flex-column flex-1">
+        <div className="flex-column flex-1  border-right" >
           <div className="grid flex-2">
             <Charts />
           </div>
@@ -266,12 +266,12 @@ class App extends React.PureComponent {
     return (
       <div className="flex flex-1 overflow-hidden">
         <div className="flex">
-          <div className="flex-column flex-1 borderRight">
+          <div className="flex-column flex-1 border-right">
             <div className="grid flex-1">
               <Trade />
             </div>
           </div>
-          <div className="grid borderRight flex-column">
+          <div className="grid border-right flex-column">
             <div className="title">
               <div>
                 <div>Orderbook</div>
@@ -281,7 +281,7 @@ class App extends React.PureComponent {
             <OrderBook />
           </div>
         </div>
-        <div className="flex-column flex-1 borderRight">
+        <div className="flex-column flex-1 border-right">
           <div className="grid flex-2">
             <Charts />
           </div>
@@ -291,12 +291,12 @@ class App extends React.PureComponent {
         </div>
         <div className="flex-column">
           <div className="grid flex-1">
-            <div className="title flex align-items-center">
+            <div className="title flex align-items-center  border-right">
               <div>Trade History</div>
             </div>
             <TradeHistory />
           </div>
-          <div className="grid flex-1 border-top">
+          <div className="grid flex-1 border-top ">
             <Wallet />
           </div>
         </div>
